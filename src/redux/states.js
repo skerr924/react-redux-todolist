@@ -2,15 +2,15 @@ let defaultState = {
   todos: [
     {
       id: 1,
-      name: "One",
+      name: "Go to the grocery store",
     },
     {
       id: 2,
-      name: "Two",
+      name: "Workout",
     },
     {
       id: 3,
-      name: "Three",
+      name: "Build react todo list",
     },
   ],
 };

@@ -17,10 +17,12 @@ function TodoInput() {
         />
         <button
           onClick={() => {
-            addTodo({
-              id: uuid,
-              name: name,
-            });
+            dispatch(
+              addTodo({
+                id: uuid(),
+                name: name,
+              })
+            );
             setName("");
           }}
           className="btn btn-primary mx-2"
