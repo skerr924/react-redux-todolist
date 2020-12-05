@@ -3,12 +3,13 @@ import React from "react";
 function TodoItem() {
   return (
     <div>
-      <h3>Todo Item</h3>
-      <div className="row">
+      <div className="row m-0">
         <div>#1</div>
-        <div>Title</div>
-        <button>Edit</button>
-        <button>Delete</button>
+        <div className="col">
+          <h4>Todo Title</h4>
+        </div>
+        <button className="btn btn-primary m-2">Edit</button>
+        <button className="btn btn-danger m-2">Delete</button>
       </div>
     </div>
   );
