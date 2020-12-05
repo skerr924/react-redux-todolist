@@ -3,7 +3,7 @@ import React from "react";
 function TodoItem() {
   return (
     <div>
-      <div className="row m-0">
+      <div className="row m-0 align-items-center">
         <div>#1</div>
         <div className="col">
           <h4>Todo Title</h4>
