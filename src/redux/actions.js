@@ -17,6 +17,7 @@ export function deleteTodo(todoId) {
 }
 
 export function updateTodo(todo) {
+  console.log(todo);
   return {
     type: UPDATE_TODO,
     payload: todo,
